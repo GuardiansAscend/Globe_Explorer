@@ -1,0 +1,25 @@
+/* 
+    Created on : 19-Nov-2019
+    Author     : Kevin Scanlan
+    This css file is not seeming to work in the SubScene, this needs to be investigated further
+*/
+
+.root {
+     -fx-background-image: url("deepSpaceBackground.jpg");
+}
+
+.button {
+    -fx-font-family: "AR CENA";
+    -fx-font-size: 18;
+    -fx-text-fill: seagreen;
+    -fx-border-color: seashell;
+    -fx-border-width: 2;
+    -fx-border-style: dashed;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.label {
+    -fx-text-fill: seagreen;
+    -fx-font-family: "AR CENA";
+    -fx-font-size: 18;
+}
